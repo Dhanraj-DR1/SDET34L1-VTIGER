@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Suite">
+  <test thread-count="3" parallel="classes" name="Test">
+    <classes>
+      <class name="com.vtiger.campaign.Test.CreateCompaignalongWithproductTest"/>
+      <class name="com.vtiger.contact.Test.CreateContactWithCopyOtherAdressTest"/>
+      <class name="com.vtiger.contact.Test.CreateContactWithBirthDateTest"/>
+      <class name="com.vtiger.contact.Test.CreateContactWithCopyMailAdressTest"/>
+      <class name="com.vtiger.contact.Test.CreateContactWithSupportEndDateTest"/>
+      <class name="com.vtiger.organization.Test.CreateOrganizationTest"/>
+      <class name="com.vtiger.document.Test.CreateDocumentTest"/>
+      <class name="com.vtiger.contacts.Test.CreateContactwithOrganizationTest"/>
+      <class name="com.vtiger.contacts.Test.CreateContactsTest"/>
+      <class name="com.vtiger.organization.Test.CreateOrganizationWithIndustryTYpeTest"/>
+      <class name="com.vtiget.product.Test.CreateProductTest"/>
+      <class name="com.vtiger.campaign.Test.CreateCampaignTest"/>
+      <class name="com.vtiger.contact.Test.CreateConatctWithsupportStartDateTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
